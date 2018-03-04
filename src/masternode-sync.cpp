@@ -63,8 +63,8 @@ bool CMasternodeSync::IsBlockchainSynced()
 
 void CMasternodeSync::Reset()
 {
-    lastMasternodeList = 0;
-    lastMasternodeWinner = 0;
+    lastMasternodeList = 1;
+    lastMasternodeWinner = 1;
     lastBudgetItem = 0;
     mapSeenSyncMNB.clear();
     mapSeenSyncMNW.clear();
